@@ -1,0 +1,207 @@
+body {
+  height: 99vh;
+  width: 99vw; }
+  body section.landing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: calc(100vh - 44px);
+    width: 100vw;
+    padding-left: 100px;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQHe39UVsPmnlQ/company-background_10000/0/1538138884687?e=2159024400&v=beta&t=QZzKGpIxkKgREjf_gSjgcYj7EuCVl1DdXTO-v2-tNXQ);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  body div.formulario {
+    position: absolute;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+    background-color: #d6d6d6; }
+  body footer {
+    padding: 10px;
+    text-align: center;
+    height: 44px;
+    width: 100vw;
+    background-color: #e2e0e0;
+    z-index: 2; }
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 0;
+  padding-top: 70px;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: -125px;
+  background-color: #364f6b;
+  color: #f0f0f0;
+  transition: 0.5s; }
+  .sidenav:hover {
+    left: 0px; }
+  .sidenav div.paginas {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 18px;
+    height: 100px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+  .sidenav a.imagenes {
+    width: 100%;
+    text-decoration: none;
+    color: #ebebeb;
+    height: 100px;
+    text-align: start;
+    padding-top: 20px; }
+    .sidenav a.imagenes:hover {
+      background-color: #ebebeb;
+      color: black; }
+      .sidenav a.imagenes:hover .circle {
+        background-color: #ebebeb; }
+
+.circle {
+  position: absolute;
+  transform: translateY(-10px);
+  right: 15px;
+  border-radius: 50%;
+  width: 50px;
+  background-color: #456488; }
+
+body header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 42px;
+  align-content: flex-end;
+  background-color: #cacaca;
+  padding: 6px; }
+
+body section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  body section .contenido {
+    width: 90%;
+    height: 90vh;
+    background-color: #e4e4e4; }
+
+body div.tablero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: absolute;
+  padding: 0;
+  width: calc(100% - 75px);
+  height: 100%;
+  left: 75px; }
+
+body div.contenedorConPadding {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f0f0f0;
+  padding: 15px;
+  width: 100%; }
+
+body div.contenedorSinPadding {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 100%; }
+
+body div.titulo {
+  border-radius: 25px;
+  padding: 25px;
+  width: 98vw;
+  height: 12vh;
+  animation: fadein 1s; }
+  body div.titulo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    font-weight: bold; }
+
+body div.contenidoCuadrado {
+  width: 40vw;
+  height: 31vh;
+  margin: 25px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  animation: fadein 1s; }
+  body div.contenidoCuadrado h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold; }
+
+body div.contenidoCuadradoCompleto {
+  width: 80vw;
+  height: 68vh;
+  margin: 25px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  animation: fadein 1s; }
+  body div.contenidoCuadradoCompleto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: bold; }
+
+body div.contenidoVertical {
+  width: 40vw;
+  height: 68vh;
+  margin: 25px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  animation: fadein 1s; }
+
+body h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  font-weight: bold; }
+
+body h4 {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  font-weight: bold; }
+
+div.header {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 44px;
+  align-content: flex-end;
+  background-color: #e2e0e0;
+  padding: 6px; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.indicadores {
+  width: 100%;
+  height: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
